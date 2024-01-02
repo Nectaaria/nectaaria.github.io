@@ -2,17 +2,69 @@ h1{
     color : whitesmoke
 }
 
+
+
 .Portfolio
 {
     color :blueviolet;
     font-size: 2.3em ;
     text-align : center;
+    margin-left: 3%;
+	margin-right: 3%;
+    margin-top: 7%;
+    
 }
 
-.barre_dessus{
-    color : darkblue
+.contact{
+    color :blueviolet;
+    font-size: 2.3em ;
+    text-align : center;
+    margin-left: 3%;
+	margin-right: 3%;
+    margin-top: 7%;
+}
+
+.CV{
+    color :blueviolet;
+    font-size: 2.3em ;
+    text-align : center;
+    margin-left: 3%;
+	margin-right: 3%;
+    margin-top: 7%;
 }
 
 body{
-    background-color : #e6d7ff
+    background-color : #e6d7ff;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.txt{
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+nav {
+    position: fixed;
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+    background-color: blueviolet;
+}
+nav li
+{
+	list-style-type: none;
+	float: left;
+  transition: 0.2s;
+}
+
+nav a
+{
+	display: inline-block;
+	text-decoration: none;
+	padding: 10px 150px;
+    font-weight: 600;
+    color: #e6d7ff;
+    transition: 0.2s;
+
 }
