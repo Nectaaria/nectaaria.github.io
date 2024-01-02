@@ -68,6 +68,15 @@ nav a
     transition: 0.2s;
 
 }
+
+nav ul
+{
+	margin-left: 1px;
+	margin-right: 1px;
+	padding: 0px;
+	overflow: hidden;
+}
+
 nav li:hover
 {
 	background-color:#e6d7ff ;
