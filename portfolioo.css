@@ -91,3 +91,7 @@ nav li:hover a
     transition: 0.2s;
 
 }
+
+.Titre{
+    text-decoration: underline;
+}
