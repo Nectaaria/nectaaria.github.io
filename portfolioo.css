@@ -95,3 +95,7 @@ nav li:hover a
 .Titre{
     text-decoration: underline;
 }
+
+.warning{
+    font-style: italic;
+}
