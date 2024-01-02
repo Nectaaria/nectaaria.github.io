@@ -68,3 +68,18 @@ nav a
     transition: 0.2s;
 
 }
+nav li:hover
+{
+	background-color:#e6d7ff ;
+    transition: 0.2s;
+
+}
+
+/* Change l'apparence du texte lorsque l'on passe la souris dessus */
+nav li:hover a
+{
+	text-decoration: underline;
+	color: blueviolet;
+    transition: 0.2s;
+
+}
