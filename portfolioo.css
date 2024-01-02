@@ -62,7 +62,7 @@ nav a
 {
 	display: inline-block;
 	text-decoration: none;
-	padding: 10px 150px;
+	padding: 10px 20em;
     font-weight: 600;
     color: #e6d7ff;
     transition: 0.2s;
