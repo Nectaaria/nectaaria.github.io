@@ -59,7 +59,16 @@ body{
     flex-basis: auto;
     break-inside: avoid;
     clear: both;
-    width: 45%; 
+    width: 65%; 
+}
+
+.textee {
+    margin-left:5px;
+    flex-grow: 0;
+    flex-basis: auto;
+    break-inside: avoid;
+    clear: both;
+    width: 75%; 
 }
 .Titre {
     display: flex;
