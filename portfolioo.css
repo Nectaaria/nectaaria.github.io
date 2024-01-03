@@ -53,6 +53,92 @@ body{
     margin:20px;
 }
 
+.text {
+    margin-left:5px;
+    flex-grow: 0;
+    flex-basis: auto;
+    break-inside: avoid;
+    clear: both;
+    width: 45%; 
+}
+.Titre {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: flex-start;
+    column-count: 3;
+    column-gap: 20px;
+}
+
+.plantum {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: flex-start;
+    column-count: 3;
+    column-gap: 20px;
+}
+.Winter_Home {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: flex-start;
+    column-count: 3;
+    column-gap: 20px;
+}
+.tobacco_pipeline {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: flex-start;
+    column-count: 3;
+    column-gap: 20px;
+}
+
+.note_tes_potes {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: flex-start;
+    column-count: 3;
+    column-gap: 20px;
+}
+.chrono{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: flex-start;
+    column-count: 3;
+    column-gap: 20px;
+}
+
+.animations{
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: flex-start;
+    column-count: 3;
+    column-gap: 20px;
+}
+
+.intertxt{
+    margin:20px;
+}
+
 /* là c'est la barre du dessus toute violette*/
 nav {
     position: fixed;
@@ -636,88 +722,3 @@ nav li:hover a
 }
 
 
-.text {
-    margin-left:5px;
-    flex-grow: 0;
-    flex-basis: auto;
-    break-inside: avoid;
-    clear: both;
-    width: 45%; 
-}
-.Titre {
-    display: flex;
-    flex-wrap: wrap;
-    width: 1200px;
-    margin-left: 3%;
-    margin-right: 3%;
-    justify-content: flex-start;
-    column-count: 3;
-    column-gap: 20px;
-}
-
-.plantum {
-    display: flex;
-    flex-wrap: wrap;
-    width: 1200px;
-    margin-left: 3%;
-    margin-right: 3%;
-    justify-content: flex-start;
-    column-count: 3;
-    column-gap: 20px;
-}
-.Winter_Home {
-    display: flex;
-    flex-wrap: wrap;
-    width: 1200px;
-    margin-left: 3%;
-    margin-right: 3%;
-    justify-content: flex-start;
-    column-count: 3;
-    column-gap: 20px;
-}
-.tobacco_pipeline {
-    display: flex;
-    flex-wrap: wrap;
-    width: 1200px;
-    margin-left: 3%;
-    margin-right: 3%;
-    justify-content: flex-start;
-    column-count: 3;
-    column-gap: 20px;
-}
-
-.note_tes_potes {
-    display: flex;
-    flex-wrap: wrap;
-    width: 1200px;
-    margin-left: 3%;
-    margin-right: 3%;
-    justify-content: flex-start;
-    column-count: 3;
-    column-gap: 20px;
-}
-.chrono{
-    display: flex;
-    flex-wrap: wrap;
-    width: 1200px;
-    margin-left: 3%;
-    margin-right: 3%;
-    justify-content: flex-start;
-    column-count: 3;
-    column-gap: 20px;
-}
-
-.animations{
-    display: flex;
-    flex-wrap: wrap;
-    width: 1200px;
-    margin-left: 3%;
-    margin-right: 3%;
-    justify-content: flex-start;
-    column-count: 3;
-    column-gap: 20px;
-}
-
-.intertxt{
-    margin:20px;
-}
