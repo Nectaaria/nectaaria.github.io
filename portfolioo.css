@@ -100,3 +100,7 @@ nav li:hover a
 .warning{
     font-style: italic;
 }
+
+.text{
+    text-align: left;
+}
