@@ -43,6 +43,7 @@ body{
 
 }
 
+/* là c'est la barre du dessus toute violette*/
 nav {
     position: fixed;
 	position: absolute;
@@ -92,6 +93,8 @@ nav li:hover a
     transition: 0.2s;
 
 }
+
+/*Fin de la barre toute violette tout en haut*/
 
 .Titre{
     text-decoration: underline;
@@ -274,5 +277,177 @@ nav li:hover a
 }
 
 #screen_floral_serenity_4 .close:hover {
+    color: red;
+}
+
+/* Là c'est la 1ère mais du 3ème jeu, tu vois un peu?*/
+
+#screen_tobbaco_1 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+#screen_tobbaco_1:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#screen_tobbaco_1 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    max-height: 90%;
+}
+
+#screen_tobbaco_1 .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    color: blueviolet;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+#screen_tobbaco_1 .close:hover {
+    color: red;
+}
+
+/*Là c'est la seconde du 3ème jeu*/
+
+#screen_tobbaco_2 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+#screen_tobbaco_2:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#screen_tobbaco_2 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    max-height: 90%;
+}
+
+#screen_tobbaco_2 .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    color: blueviolet;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+#screen_tobbaco_2 .close:hover {
+    color: red;
+}
+
+/*Là, c'est la 3ème du 3ème jeu, inception?*/
+
+#screen_tobbaco_3 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+#screen_tobbaco_3:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#screen_tobbaco_3 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    max-height: 90%;
+}
+
+#screen_tobbaco_3 .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    color: blueviolet;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+#screen_tobbaco_3 .close:hover {
+    color: red;
+}
+/*Là, c'est la 4ème du 3ème jeu, ça fait beaucoup là non?*/
+
+
+#screen_tobbaco_4 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: rgba(0,0,0,0.8);
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+#screen_tobbaco_4:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#screen_tobbaco_4 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    max-height: 90%;
+}
+
+#screen_tobbaco_4 .close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    color: blueviolet;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+#screen_tobbaco_4 .close:hover {
     color: red;
 }
