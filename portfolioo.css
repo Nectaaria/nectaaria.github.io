@@ -68,7 +68,7 @@ body{
     flex-basis: auto;
     break-inside: avoid;
     clear: both;
-    width: 75%; 
+    width: 55%; 
 }
 .Titre {
     display: flex;
