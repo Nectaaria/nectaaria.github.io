@@ -730,11 +730,4 @@ nav li:hover a
     color: red;
 }
 
-::-webkit-scrollbar {
-    width: 90px;
-    background: #2a92ac;
-}
-::-webkit-scrollbar-thumb {
-    border: solid 0 transparent;
-    background-color: #24d1fd;
-}
+
