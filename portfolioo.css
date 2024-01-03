@@ -242,7 +242,7 @@ nav li:hover a
     max-height: 90%;
 }
 
-#screen_floral_serenity_1 .close {
+#screen_floral_serenity_1 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -252,7 +252,7 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_floral_serenity_1 .close:hover {
+#screen_floral_serenity_1 .croix:hover {
     color: red;
 }
 
@@ -285,7 +285,7 @@ nav li:hover a
     max-height: 90%;
 }
 
-#screen_floral_serenity_2 .close {
+#screen_floral_serenity_2 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -295,7 +295,7 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_floral_serenity_2 .close:hover {
+#screen_floral_serenity_2 .croix:hover {
     color: red;
 }
 
@@ -328,7 +328,7 @@ nav li:hover a
     max-height: 90%;
 }
 
-#screen_floral_serenity_3 .close {
+#screen_floral_serenity_3 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -338,7 +338,7 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_floral_serenity_3 .close:hover {
+#screen_floral_serenity_3 .croix:hover {
     color: red;
 }
 
@@ -371,7 +371,7 @@ nav li:hover a
     max-height: 90%;
 }
 
-#screen_floral_serenity_4 .close {
+#screen_floral_serenity_4 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -381,7 +381,7 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_floral_serenity_4 .close:hover {
+#screen_floral_serenity_4 .croix:hover {
     color: red;
 }
 
@@ -414,7 +414,7 @@ nav li:hover a
     max-height: 90%;
 }
 
-#screen_home_1 .close {
+#screen_home_1 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -424,7 +424,7 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_home_1 .close:hover {
+#screen_home_1 .croix:hover {
     color: red;
 }
 
@@ -457,7 +457,7 @@ nav li:hover a
     max-height: 90%;
 }
 
-#screen_home_2 .close {
+#screen_home_2 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -467,7 +467,7 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_home_2 .close:hover {
+#screen_home_2 .croix:hover {
     color: red;
 }
 
@@ -500,7 +500,7 @@ nav li:hover a
     max-height: 90%;
 }
 
-#screen_home_3 .close {
+#screen_home_3 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -510,7 +510,7 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_home_3 .close:hover {
+#screen_home_3 .croix:hover {
     color: red;
 }
 
@@ -543,7 +543,7 @@ nav li:hover a
     max-height: 90%;
 }
 
-#screen_home_4 .close {
+#screen_home_4 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -553,7 +553,7 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_home_4 .close:hover {
+#screen_home_4 .croix:hover {
     color: red;
 }
 
@@ -586,7 +586,7 @@ nav li:hover a
     max-height: 90%;
 }
 
-#screen_tobbaco_1 .close {
+#screen_tobbaco_1 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -596,7 +596,7 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_tobbaco_1 .close:hover {
+#screen_tobbaco_1 .croix:hover {
     color: red;
 }
 
@@ -629,7 +629,7 @@ nav li:hover a
     max-height: 90%;
 }
 
-#screen_tobbaco_2 .close {
+#screen_tobbaco_2 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -639,7 +639,7 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_tobbaco_2 .close:hover {
+#screen_tobbaco_2 .croix:hover {
     color: red;
 }
 
@@ -672,7 +672,7 @@ nav li:hover a
     max-height: 90%;
 }
 
-#screen_tobbaco_3 .close {
+#screen_tobbaco_3 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -682,7 +682,7 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_tobbaco_3 .close:hover {
+#screen_tobbaco_3 .croix:hover {
     color: red;
 }
 
@@ -716,7 +716,7 @@ nav li:hover a
     max-height: 90%;
 }
 
-#screen_tobbaco_4 .close {
+#screen_tobbaco_4 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -726,8 +726,15 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_tobbaco_4 .close:hover {
+#screen_tobbaco_4 .croix:hover {
     color: red;
 }
 
-
+::-webkit-scrollbar {
+    width: 90px;
+    background: #2a92ac;
+}
+::-webkit-scrollbar-thumb {
+    border: solid 0 transparent;
+    background-color: #24d1fd;
+}
