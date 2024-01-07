@@ -178,6 +178,15 @@ body{
     margin:20px;
 }
 
+.imagecv{
+    text-align: center;
+    
+}
+
+.son{
+    font-style: italic;
+    margin:20px;
+}
 /* là c'est la barre du dessus toute violette*/
 nav {
     position: fixed;
