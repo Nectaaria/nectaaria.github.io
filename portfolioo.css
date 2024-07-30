@@ -1,9 +1,10 @@
 
 
-
+/*
 h1{
     color : whitesmoke
 }
+    */
 
 ::-webkit-scrollbar {
     width: 12px; /* Largeur de la barre de défilement */
@@ -63,23 +64,29 @@ h1{
 }
 
 body{
-    background-color : #e6d7ff;
+    background-color : #d8b9ff ;
     font-family: Arial, Helvetica, sans-serif;
 }
 
 .txt{
     font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
 
 }
 
 .titre1{
     margin:20px;
+    
+    font-size: 1.6em;
 }
 .titre2{
     margin:20px;
+    
+    font-size: 1.6em;
 }
 .titre3{
     margin:20px;
+    font-size: 1.6em;
 }
 
 .text {
@@ -109,6 +116,8 @@ body{
     column-count: 3;
     column-gap: 20px;
     text-decoration: none;
+    
+    font-size: 1.4em;
 }
 
 .plantum {
@@ -176,6 +185,7 @@ body{
 
 .intertxt{
     margin:20px;
+    font-size: 1.2em;
 }
 
 .imagecv{
@@ -212,6 +222,7 @@ nav a
     font-weight: 600;
     color: #e6d7ff;
     transition: 0.2s;
+    font-size: 1.4em;
 
 }
 
