@@ -82,12 +82,12 @@ body{
 
 
 .text {
-    margin-left:5px;
+    margin-left:2%;
     flex-grow: 0;
     flex-basis: auto;
     break-inside: avoid;
     clear: both;
-    width: 65%; 
+    width: 45%; 
 }
 
 .textee {
