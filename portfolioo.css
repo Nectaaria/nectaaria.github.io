@@ -74,20 +74,12 @@ body{
 
 }
 
-.titre1{
+.titre-grand{
     margin:20px;
     
     font-size: 1.6em;
 }
-.titre2{
-    margin:20px;
-    
-    font-size: 1.6em;
-}
-.titre3{
-    margin:20px;
-    font-size: 1.6em;
-}
+
 
 .text {
     margin-left:5px;
@@ -188,10 +180,28 @@ body{
     font-size: 1.2em;
 }
 
-.imagecv{
-    text-align: center;
-    
+.CCV{
+    display: flex;
 }
+
+.texteCV{
+    width: 40%;
+    text-align: left;
+    margin-top: 3%;
+    margin-left: 2%;
+    margin-bottom: 5%;
+    margin-right: 5%;
+    font-size: 1.2em;
+}
+.imagecv{
+    margin-top: 2%;
+    margin-left: 8%;
+    margin-bottom: 5%;
+    margin-right: 2%;
+    flex:1;
+}
+
+
 
 .son{
     font-style: italic;
