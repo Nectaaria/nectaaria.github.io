@@ -1,10 +1,9 @@
 
 
-/*
 h1{
-    color : whitesmoke
+    color : whitesmoke;
 }
-    */
+    
 
 ::-webkit-scrollbar {
     width: 12px; /* Largeur de la barre de défilement */
@@ -25,14 +24,14 @@ h1{
 
 /* Pour les navigateurs basés sur Gecko (Firefox) */
 * {
-    scrollbar-color: #5b10a1 #f1f1f1;
+    scrollbar-color: #8068a5 #f1f1f1;
     scrollbar-width: thin;
     
 }
 
 .Portfolio
 {
-    color :blueviolet;
+    color :#554270;
     font-size: 2.3em ;
     text-align : center;
     margin-left: 3%;
@@ -41,21 +40,10 @@ h1{
     
 }
 
-.contact{
-    color :blueviolet;
-    font-size: 2.3em ;
-    text-align : center;
-    margin-left: 3%;
-	margin-right: 3%;
-    margin-top: 7%;
-}
 
-.CONTACT{
-    font-size: 1.1em;
-}
 
 .CV{
-    color :blueviolet;
+    color :#554270;
     font-size: 2.3em ;
     text-align : center;
     margin-left: 3%;
@@ -64,7 +52,7 @@ h1{
 }
 
 body{
-    background-color : #d8b9ff ;
+    background-color : #b8aacc ;
     font-family: Arial, Helvetica, sans-serif;
 }
 
@@ -214,7 +202,7 @@ nav {
 	top: 0;
 	left: 0;
 	width: 100%;
-    background-color: blueviolet;
+    background-color: #4d3c66;
     text-align: center;
 }
 nav li
@@ -226,9 +214,9 @@ nav li
 
 nav a
 {
-	display: inline-block;
+	display: flex;
 	text-decoration: none;
-	padding: 10px 205px;
+	padding: 1.5% 205px;
     font-weight: 600;
     color: #e6d7ff;
     transition: 0.2s;
@@ -254,7 +242,7 @@ nav li:hover
 nav li:hover a
 {
 	
-	color: blueviolet;
+	color: #4d3c66;
     transition: 0.2s;
 
 }
@@ -305,7 +293,7 @@ nav li:hover a
     top: 10px;
     right: 10px;
     font-size: 2rem;
-    color: blueviolet;
+    color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
 }
@@ -348,7 +336,7 @@ nav li:hover a
     top: 10px;
     right: 10px;
     font-size: 2rem;
-    color: blueviolet;
+    color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
 }
@@ -391,7 +379,7 @@ nav li:hover a
     top: 10px;
     right: 10px;
     font-size: 2rem;
-    color: blueviolet;
+    color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
 }
@@ -434,7 +422,7 @@ nav li:hover a
     top: 10px;
     right: 10px;
     font-size: 2rem;
-    color: blueviolet;
+    color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
 }
@@ -477,7 +465,7 @@ nav li:hover a
     top: 10px;
     right: 10px;
     font-size: 2rem;
-    color: blueviolet;
+    color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
 }
@@ -520,7 +508,7 @@ nav li:hover a
     top: 10px;
     right: 10px;
     font-size: 2rem;
-    color: blueviolet;
+    color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
 }
@@ -563,7 +551,7 @@ nav li:hover a
     top: 10px;
     right: 10px;
     font-size: 2rem;
-    color: blueviolet;
+    color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
 }
@@ -606,7 +594,7 @@ nav li:hover a
     top: 10px;
     right: 10px;
     font-size: 2rem;
-    color: blueviolet;
+    color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
 }
@@ -649,7 +637,7 @@ nav li:hover a
     top: 10px;
     right: 10px;
     font-size: 2rem;
-    color: blueviolet;
+    color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
 }
@@ -692,7 +680,7 @@ nav li:hover a
     top: 10px;
     right: 10px;
     font-size: 2rem;
-    color: blueviolet;
+    color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
 }
@@ -735,7 +723,7 @@ nav li:hover a
     top: 10px;
     right: 10px;
     font-size: 2rem;
-    color: blueviolet;
+    color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
 }
@@ -779,7 +767,7 @@ nav li:hover a
     top: 10px;
     right: 10px;
     font-size: 2rem;
-    color: blueviolet;
+    color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
 }
