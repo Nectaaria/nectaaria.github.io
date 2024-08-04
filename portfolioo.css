@@ -203,7 +203,6 @@ body{
 /* là c'est la barre du dessus toute violette*/
 nav {
     position: fixed;
-	position: absolute;
 	top: 0;
 	left: 0;
 	width: 100%;
