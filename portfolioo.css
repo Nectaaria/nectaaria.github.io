@@ -105,6 +105,17 @@ body{
     font-size: 1.4em;
 }
 
+.throwbound {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1200px;
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: flex-start;
+    column-count: 3;
+    column-gap: 20px;
+}
+
 .plantum {
     display: flex;
     flex-wrap: wrap;
@@ -264,6 +275,204 @@ nav li:hover a
 }
 
 /* là c'est la première image, gl pour la lecture*/
+
+#screen_throwbound_1 .__background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+#screen_throwbound_1 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#screen_throwbound_1:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#screen_throwbound_1 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    max-height: 90%;
+    z-index: 99999;
+}
+
+#screen_throwbound_1 .croix {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+#screen_throwbound_1 .croix:hover {
+    color: red;
+}
+
+/*là c'est la seconde image, toujours là?*/
+
+#screen_throwbound_2 .__background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+#screen_throwbound_2 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#screen_throwbound_2:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#screen_throwbound_2 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    max-height: 90%;
+}
+
+#screen_throwbound_2 .croix {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+#screen_throwbound_2 .croix:hover {
+    color: red;
+}
+
+/* Là c'est la 3ème image, t'es sûr de vouloir tout lire ?*/
+
+#screen_throwbound_3 .__background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+#screen_throwbound_3 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#screen_throwbound_3:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#screen_throwbound_3 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    max-height: 90%;
+}
+
+#screen_throwbound_3 .croix {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+#screen_throwbound_3 .croix:hover {
+    color: red;
+}
+
+/* Là, c'est la 4ème image, pourquoi t'es toujours là?*/
+
+#screen_throwbound_4 .__background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+#screen_throwbound_4 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#screen_throwbound_4:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#screen_throwbound_4 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    max-height: 90%;
+}
+
+#screen_throwbound_4 .croix {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+#screen_throwbound_4 .croix:hover {
+    color: red;
+}
+
+/* Second jeu, première image. C'est qu'on a pas fini..*/
+
 #screen_floral_serenity_1 .__background {
     position: absolute;
     width: 100%;
@@ -312,11 +521,7 @@ nav li:hover a
     color: red;
 }
 
-
-
-
-
-/*là c'est la seconde image, toujours là?*/
+/* Encore et toujours, je sens qu'on est pas rendu*/
 
 #screen_floral_serenity_2 .__background {
     position: absolute;
@@ -365,7 +570,7 @@ nav li:hover a
     color: red;
 }
 
-/* Là c'est la 3ème image, t'es sûr de vouloir tout lire ?*/
+/* Bientot fini.. mais pour le second jeu, pas pour toutes les images..*/
 
 #screen_floral_serenity_3 .__background {
     position: absolute;
@@ -414,7 +619,7 @@ nav li:hover a
     color: red;
 }
 
-/* Là, c'est la 4ème image, pourquoi t'es toujours là?*/
+/* Bon, ça suffit maintenant non? */
 
 #screen_floral_serenity_4 .__background {
     position: absolute;
@@ -463,7 +668,7 @@ nav li:hover a
     color: red;
 }
 
-/*Là, c'est la 1ère image du second jeu, jpp*/
+/*Là, c'est la 1ère image du troisième jeu, jpp*/
 
 #screen_home_1 .__background {
     position: absolute;
@@ -512,7 +717,7 @@ nav li:hover a
     color: red;
 }
 
-/*Là, c'est la seconde image du second jeu, encore trop à faire 0.0*/
+/*Là, c'est la seconde image du troisième jeu, encore trop à faire 0.0*/
 
 #screen_home_2 .__background {
     position: absolute;
@@ -561,7 +766,7 @@ nav li:hover a
     color: red;
 }
 
-/*Là c'est la 3ème image du second jeu, plus qu'une pour ce jeu là*/
+/*Là c'est la 3ème image du troisième jeu, plus qu'une pour ce jeu là*/
 
 #screen_home_3 .__background {
     position: absolute;
@@ -610,7 +815,7 @@ nav li:hover a
     color: red;
 }
 
-/* Là c'est la 4ème image du second jeu, ça commence à être énervant isn't it?*/
+/* Là c'est la 4ème image du troisième jeu, ça commence à être énervant isn't it?*/
 
 #screen_home_4 .__background {
     position: absolute;
@@ -659,7 +864,7 @@ nav li:hover a
     color: red;
 }
 
-/* Là c'est la 1ère mais du 3ème jeu, tu vois un peu?*/
+/* Là c'est la 1ère mais du 4eme jeu, tu vois un peu?*/
 
 #screen_tobbaco_1 .__background {
     position: absolute;
@@ -708,7 +913,7 @@ nav li:hover a
     color: red;
 }
 
-/*Là c'est la seconde du 3ème jeu*/
+/*Là c'est la seconde du 4ème jeu, même moi j'en ai marre*/
 
 #screen_tobbaco_2 .__background {
     position: absolute;
@@ -757,7 +962,7 @@ nav li:hover a
     color: red;
 }
 
-/*Là, c'est la 3ème du 3ème jeu, inception?*/
+/*Là, c'est la 3ème du 4ème jeu, et c'est le SOS d'une dév nulle en web*/
 
 #screen_tobbaco_3 .__background {
     position: absolute;
@@ -806,7 +1011,7 @@ nav li:hover a
     color: red;
 }
 
-/*Là, c'est la 4ème du 3ème jeu, ça fait beaucoup là non?*/
+/*Là, c'est la 4ème du 4ème jeu, inception?*/
 
 
 #screen_tobbaco_4 .__background {
