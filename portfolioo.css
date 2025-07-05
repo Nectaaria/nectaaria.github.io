@@ -471,6 +471,55 @@ nav li:hover a
     color: red;
 }
 
+/* Dernière image du  premier jeu, pfff..*/
+
+/*#screen_throwbound_5 .__background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+#screen_throwbound_5 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#screen_throwbound_5:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#screen_throwbound_5 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    max-height: 90%;
+}
+
+#screen_throwbound_5 .croix {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+#screen_throwbound_5 .croix:hover {
+    color: red;
+}*/
+
 /* Second jeu, première image. C'est qu'on a pas fini..*/
 
 #screen_floral_serenity_1 .__background {
