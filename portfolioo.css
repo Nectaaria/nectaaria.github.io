@@ -80,7 +80,7 @@ body{
     flex-basis: auto;
     break-inside: avoid;
     clear: both;
-    width: 45%; 
+    width: 55%; 
 }
 
 .textee {
@@ -89,7 +89,7 @@ body{
     flex-basis: auto;
     break-inside: avoid;
     clear: both;
-    width: 55%; 
+    width: 50%; 
 }
 .Titre {
     display: flex;
@@ -108,7 +108,7 @@ body{
 .throwbound {
     display: flex;
     flex-wrap: wrap;
-    width: 1200px;
+    width: 100%;
     margin-left: 3%;
     margin-right: 3%;
     justify-content: flex-start;
@@ -119,7 +119,7 @@ body{
 .plantum {
     display: flex;
     flex-wrap: wrap;
-    width: 1200px;
+    width: 100%;
     margin-left: 3%;
     margin-right: 3%;
     justify-content: flex-start;
@@ -129,7 +129,7 @@ body{
 .Winter_Home {
     display: flex;
     flex-wrap: wrap;
-    width: 1200px;
+    width: 100%;
     margin-left: 3%;
     margin-right: 3%;
     justify-content: flex-start;
@@ -139,7 +139,7 @@ body{
 .tobacco_pipeline {
     display: flex;
     flex-wrap: wrap;
-    width: 1200px;
+    width: 100%;
     margin-left: 3%;
     margin-right: 3%;
     justify-content: flex-start;
@@ -150,7 +150,7 @@ body{
 .note_tes_potes {
     display: flex;
     flex-wrap: wrap;
-    width: 1200px;
+    width: 100%;
     margin-left: 3%;
     margin-right: 3%;
     justify-content: flex-start;
@@ -160,7 +160,7 @@ body{
 .chrono{
     display: flex;
     flex-wrap: wrap;
-    width: 1200px;
+    width: 100%;
     margin-left: 3%;
     margin-right: 3%;
     justify-content: flex-start;
@@ -171,7 +171,7 @@ body{
 .animations{
     display: flex;
     flex-wrap: wrap;
-    width: 1200px;
+    width: 100%;
     margin-left: 3%;
     margin-right: 3%;
     justify-content: flex-start;
@@ -314,6 +314,7 @@ nav li:hover a
     position: absolute;
     top: 10px;
     right: 10px;
+    margin-right: 2.3rem;
     font-size: 2rem;
     color: #4d3c66;
     text-decoration: none;
@@ -367,6 +368,7 @@ nav li:hover a
     color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
+    margin-right: 2.3rem;
 }
 
 #screen_throwbound_2 .croix:hover {
@@ -416,6 +418,7 @@ nav li:hover a
     color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
+    margin-right: 2.3rem;
 }
 
 #screen_throwbound_3 .croix:hover {
@@ -465,15 +468,16 @@ nav li:hover a
     color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
+    margin-right: 2.3rem;
 }
 
 #screen_throwbound_4 .croix:hover {
     color: red;
 }
 
-/* Dernière image du  premier jeu, pfff..*/
+/* Avant dernière image du  premier jeu, on est pas rendu..*/
 
-/*#screen_throwbound_5 .__background {
+#screen_throwbound_5 .__background {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -513,14 +517,372 @@ nav li:hover a
     font-size: 2rem;
     color: #4d3c66;
     text-decoration: none;
+    margin-right: 2.3rem;
     z-index: 99999;
 }
 
 #screen_throwbound_5 .croix:hover {
     color: red;
-}*/
+}
 
-/* Second jeu, première image. C'est qu'on a pas fini..*/
+/* Bon, ça suffit maintenant non? */
+
+#screen_throwbound_6 .__background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+#screen_throwbound_6 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#screen_throwbound_6:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#screen_throwbound_6 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    max-height: 90%;
+}
+
+#screen_throwbound_6 .croix {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    margin-right: 2.3rem;
+    z-index: 99999;
+}
+
+#screen_throwbound_6 .croix:hover {
+    color: red;
+}
+
+/* là c'est la première image, gl pour la lecture*/
+
+#screen_microville_1 .__background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+#screen_microville_1 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#screen_microville_1:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#screen_microville_1 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    max-height: 90%;
+    z-index: 99999;
+}
+
+#screen_microville_1 .croix {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+#screen_microville_1 .croix:hover {
+    color: red;
+}
+
+
+/* On va rester là longtemps à ce rythme*/
+
+#screen_microville_2 .__background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+#screen_microville_2 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#screen_microville_2:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#screen_microville_2 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    max-height: 90%;
+    z-index: 99999;
+}
+
+#screen_microville_2 .croix {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+#screen_microville_2 .croix:hover {
+    color: red;
+}
+
+/* L'avant dernière !!  Ah non, ce n'est que la  troisième image..*/
+
+#screen_microville_3 .__background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+#screen_microville_3 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#screen_microville_3:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#screen_microville_3 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    max-height: 90%;
+    z-index: 99999;
+}
+
+#screen_microville_3 .croix {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+#screen_microville_3 .croix:hover {
+    color: red;
+}
+
+/* Peut-être qu'il existe une fin à tout cela ?*/
+
+#screen_microville_4 .__background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+#screen_microville_4 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#screen_microville_4:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#screen_microville_4 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    max-height: 90%;
+    z-index: 99999;
+}
+
+#screen_microville_4 .croix {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+#screen_microville_4 .croix:hover {
+    color: red;
+}
+
+/* Vraiment  l'avant dernière cette fois ci !*/
+
+#screen_microville_5 .__background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+#screen_microville_5 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#screen_microville_5:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#screen_microville_5 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    max-height: 90%;
+    z-index: 99999;
+}
+
+#screen_microville_5 .croix {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+#screen_microville_5 .croix:hover {
+    color: red;
+}
+
+/* Enfin la dernière  ! Mais il reste 3 jeux encore..*/
+
+#screen_microville_6 .__background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+#screen_microville_6 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#screen_microville_6:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#screen_microville_6 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    max-height: 90%;
+    z-index: 99999;
+}
+
+#screen_microville_6 .croix {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+#screen_microville_6 .croix:hover {
+    color: red;
+}
+
+/* Troisième jeu, première image. C'est qu'on a pas fini..*/
 
 #screen_floral_serenity_1 .__background {
     position: absolute;
@@ -564,6 +926,7 @@ nav li:hover a
     color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
+    margin-right: 2.3rem;
 }
 
 #screen_floral_serenity_1 .croix:hover {
@@ -613,13 +976,14 @@ nav li:hover a
     color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
+    margin-right: 2.3rem;
 }
 
 #screen_floral_serenity_2 .croix:hover {
     color: red;
 }
 
-/* Bientot fini.. mais pour le second jeu, pas pour toutes les images..*/
+/* Bientot fini.. mais pour le troisième jeu, pas pour toutes les images..*/
 
 #screen_floral_serenity_3 .__background {
     position: absolute;
@@ -662,13 +1026,15 @@ nav li:hover a
     color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
+    margin-right: 2.3rem;
 }
 
 #screen_floral_serenity_3 .croix:hover {
     color: red;
 }
 
-/* Bon, ça suffit maintenant non? */
+
+/* Là c'est la 4ème image du troisième jeu, ça commence à être énervant isn't it?*/
 
 #screen_floral_serenity_4 .__background {
     position: absolute;
@@ -711,13 +1077,14 @@ nav li:hover a
     color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
+    margin-right: 2.3rem;
 }
 
 #screen_floral_serenity_4 .croix:hover {
     color: red;
 }
 
-/*Là, c'est la 1ère image du troisième jeu, jpp*/
+/*Là, c'est la 1ère image du quatrième jeu, jpp*/
 
 #screen_home_1 .__background {
     position: absolute;
@@ -760,13 +1127,14 @@ nav li:hover a
     color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
+    margin-right: 2.3rem;
 }
 
 #screen_home_1 .croix:hover {
     color: red;
 }
 
-/*Là, c'est la seconde image du troisième jeu, encore trop à faire 0.0*/
+/*Là, c'est la seconde image du quatrième jeu, encore trop à faire 0.0*/
 
 #screen_home_2 .__background {
     position: absolute;
@@ -809,13 +1177,14 @@ nav li:hover a
     color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
+    margin-right: 2.3rem;
 }
 
 #screen_home_2 .croix:hover {
     color: red;
 }
 
-/*Là c'est la 3ème image du troisième jeu, plus qu'une pour ce jeu là*/
+/*Là c'est la 3ème image du quatrième jeu, plus qu'une pour ce jeu là*/
 
 #screen_home_3 .__background {
     position: absolute;
@@ -858,13 +1227,14 @@ nav li:hover a
     color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
+    margin-right: 2.3rem;
 }
 
 #screen_home_3 .croix:hover {
     color: red;
 }
 
-/* Là c'est la 4ème image du troisième jeu, ça commence à être énervant isn't it?*/
+/*Là, c'est la 4ème du 4ème jeu, inception?*/
 
 #screen_home_4 .__background {
     position: absolute;
@@ -907,13 +1277,14 @@ nav li:hover a
     color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
+    margin-right: 2.3rem;
 }
 
 #screen_home_4 .croix:hover {
     color: red;
 }
 
-/* Là c'est la 1ère mais du 4eme jeu, tu vois un peu?*/
+/* Là c'est la 1ère mais du 5eme jeu, tu vois un peu?*/
 
 #screen_tobbaco_1 .__background {
     position: absolute;
@@ -956,13 +1327,14 @@ nav li:hover a
     color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
+    margin-right: 2.3rem;
 }
 
 #screen_tobbaco_1 .croix:hover {
     color: red;
 }
 
-/*Là c'est la seconde du 4ème jeu, même moi j'en ai marre*/
+/*Là c'est la seconde du 5ème jeu, même moi j'en ai marre*/
 
 #screen_tobbaco_2 .__background {
     position: absolute;
@@ -1005,13 +1377,14 @@ nav li:hover a
     color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
+    margin-right: 2.3rem;
 }
 
 #screen_tobbaco_2 .croix:hover {
     color: red;
 }
 
-/*Là, c'est la 3ème du 4ème jeu, et c'est le SOS d'une dév nulle en web*/
+/*Là, c'est la 3ème du 5ème jeu, et c'est le SOS d'une dév nulle en web*/
 
 #screen_tobbaco_3 .__background {
     position: absolute;
@@ -1054,13 +1427,14 @@ nav li:hover a
     color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
+    margin-right: 2.3rem;
 }
 
 #screen_tobbaco_3 .croix:hover {
     color: red;
 }
 
-/*Là, c'est la 4ème du 4ème jeu, inception?*/
+/*Là, c'est la 4ème du 5ème jeu, la fin ?*/
 
 
 #screen_tobbaco_4 .__background {
