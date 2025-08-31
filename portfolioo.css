@@ -116,6 +116,18 @@ body{
     column-gap: 20px;
 }
 
+.microville {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin-left: 3%;
+    margin-right: 3%;
+    justify-content: flex-start;
+    column-count: 3;
+    column-gap: 20px;
+}
+
+
 .plantum {
     display: flex;
     flex-wrap: wrap;
