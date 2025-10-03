@@ -45,7 +45,34 @@ h1{
     
 }
 
+.interImages
+{
+   margin-left: 0.02%;
+}
 
+#interText
+{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    flex-basis: auto;
+    break-inside: avoid;
+    clear: both;
+}
+
+#intertxt{
+    width: 48%;
+    
+    width: 240px;
+    
+    text-align: center;
+}
+#intertxt2{
+    width: 48%;
+    width: 240px;
+    margin-left: 6em;
+    text-align: center;
+}
 
 .CV{
     color :#554270;
@@ -66,13 +93,26 @@ body{
     font-size: 1.2rem;
 
 }
+.txt2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.2rem;
+    width: 50%;
+    flex-basis: auto;
+    break-inside: avoid;
+    clear: both;
+}
 
 .titre-grand{
-    margin:20px;
+    margin-left:2em;
     
     font-size: 1.6em;
 }
 
+.titre-tresgrand{
+    margin:20px;
+    
+    font-size: 1.6em;
+}
 
 .text {
     margin-left:2%;
@@ -101,25 +141,15 @@ body{
     column-count: 3;
     column-gap: 20px;
     text-decoration: none;
+    font-style: italic;
     
     font-size: 1.4em;
 }
 
-.throwbound {
+.Group {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    margin-left: 3%;
-    margin-right: 3%;
-    justify-content: flex-start;
-    column-count: 3;
-    column-gap: 20px;
-}
-
-.microville {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
+    width: 97%;
     margin-left: 3%;
     margin-right: 3%;
     justify-content: flex-start;
@@ -128,73 +158,6 @@ body{
 }
 
 
-.plantum {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-left: 3%;
-    margin-right: 3%;
-    justify-content: flex-start;
-    column-count: 3;
-    column-gap: 20px;
-}
-.Winter_Home {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-left: 3%;
-    margin-right: 3%;
-    justify-content: flex-start;
-    column-count: 3;
-    column-gap: 20px;
-}
-.tobacco_pipeline {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-left: 3%;
-    margin-right: 3%;
-    justify-content: flex-start;
-    column-count: 3;
-    column-gap: 20px;
-}
-
-.note_tes_potes {
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-left: 3%;
-    margin-right: 3%;
-    justify-content: flex-start;
-    column-count: 3;
-    column-gap: 20px;
-}
-.chrono{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-left: 3%;
-    margin-right: 3%;
-    justify-content: flex-start;
-    column-count: 3;
-    column-gap: 20px;
-}
-
-.animations{
-    display: flex;
-    flex-wrap: wrap;
-    width: 100%;
-    margin-left: 3%;
-    margin-right: 3%;
-    justify-content: flex-start;
-    column-count: 3;
-    column-gap: 20px;
-}
-
-.intertxt{
-    margin:20px;
-    font-size: 1.2em;
-}
 
 .CCV{
     display: flex;
@@ -217,12 +180,6 @@ body{
     flex:1;
 }
 
-
-
-.son{
-    font-style: italic;
-    margin:20px;
-}
 /* là c'est la barre du dessus toute violette*/
 nav {
     position: fixed;
@@ -243,7 +200,7 @@ nav a
 {
 	display: flex;
 	text-decoration: none;
-	padding: 1.5% 205px;
+	padding: 1.5% 8em;
     font-weight: 600;
     color: #e6d7ff;
     transition: 0.2s;
@@ -286,9 +243,9 @@ nav li:hover a
     text-align: left;
 }
 
-/* là c'est la première image, gl pour la lecture*/
+/* Plank */
 
-#screen_throwbound_1 .__background {
+#imagesP1 .__background {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -296,7 +253,7 @@ nav li:hover a
     transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
-#screen_throwbound_1 {
+#imagesP1 {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -307,12 +264,12 @@ nav li:hover a
     opacity: 0;
 }
 
-#screen_throwbound_1:target {
+#imagesP1:target {
     visibility: visible;
     opacity: 1;
 }
 
-#screen_throwbound_1 img {
+#imagesP1 img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -322,7 +279,7 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_throwbound_1 .croix {
+#imagesP1 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -333,13 +290,18 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_throwbound_1 .croix:hover {
+#imagesP1 .croix:hover {
     color: red;
 }
 
-/*là c'est la seconde image, toujours là?*/
+/* */
 
-#screen_throwbound_2 .__background {
+#imageP2classic{
+    margin-left:6em;
+}
+
+
+#imagesP2 .__background {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -347,7 +309,7 @@ nav li:hover a
     transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
-#screen_throwbound_2 {
+#imagesP2 {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -358,262 +320,12 @@ nav li:hover a
     opacity: 0;
 }
 
-#screen_throwbound_2:target {
+#imagesP2:target {
     visibility: visible;
     opacity: 1;
 }
 
-#screen_throwbound_2 img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    max-width: 90%;
-    max-height: 90%;
-}
-
-#screen_throwbound_2 .croix {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 2rem;
-    color: #4d3c66;
-    text-decoration: none;
-    z-index: 99999;
-    margin-right: 2.3rem;
-}
-
-#screen_throwbound_2 .croix:hover {
-    color: red;
-}
-
-/* Là c'est la 3ème image, t'es sûr de vouloir tout lire ?*/
-
-#screen_throwbound_3 .__background {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0,0,0,0.8);
-    transition: visibility 0s, opacity 0.5s ease-in-out;
-}
-
-#screen_throwbound_3 {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-    visibility: hidden;
-    opacity: 0;
-}
-
-#screen_throwbound_3:target {
-    visibility: visible;
-    opacity: 1;
-}
-
-#screen_throwbound_3 img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    max-width: 90%;
-    max-height: 90%;
-}
-
-#screen_throwbound_3 .croix {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 2rem;
-    color: #4d3c66;
-    text-decoration: none;
-    z-index: 99999;
-    margin-right: 2.3rem;
-}
-
-#screen_throwbound_3 .croix:hover {
-    color: red;
-}
-
-/* Là, c'est la 4ème image, pourquoi t'es toujours là?*/
-
-#screen_throwbound_4 .__background {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0,0,0,0.8);
-    transition: visibility 0s, opacity 0.5s ease-in-out;
-}
-
-#screen_throwbound_4 {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-    visibility: hidden;
-    opacity: 0;
-}
-
-#screen_throwbound_4:target {
-    visibility: visible;
-    opacity: 1;
-}
-
-#screen_throwbound_4 img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    max-width: 90%;
-    max-height: 90%;
-}
-
-#screen_throwbound_4 .croix {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 2rem;
-    color: #4d3c66;
-    text-decoration: none;
-    z-index: 99999;
-    margin-right: 2.3rem;
-}
-
-#screen_throwbound_4 .croix:hover {
-    color: red;
-}
-
-/* Avant dernière image du  premier jeu, on est pas rendu..*/
-
-#screen_throwbound_5 .__background {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0,0,0,0.8);
-    transition: visibility 0s, opacity 0.5s ease-in-out;
-}
-
-#screen_throwbound_5 {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-    visibility: hidden;
-    opacity: 0;
-}
-
-#screen_throwbound_5:target {
-    visibility: visible;
-    opacity: 1;
-}
-
-#screen_throwbound_5 img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    max-width: 90%;
-    max-height: 90%;
-}
-
-#screen_throwbound_5 .croix {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 2rem;
-    color: #4d3c66;
-    text-decoration: none;
-    margin-right: 2.3rem;
-    z-index: 99999;
-}
-
-#screen_throwbound_5 .croix:hover {
-    color: red;
-}
-
-/* Bon, ça suffit maintenant non? */
-
-#screen_throwbound_6 .__background {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0,0,0,0.8);
-    transition: visibility 0s, opacity 0.5s ease-in-out;
-}
-
-#screen_throwbound_6 {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-    visibility: hidden;
-    opacity: 0;
-}
-
-#screen_throwbound_6:target {
-    visibility: visible;
-    opacity: 1;
-}
-
-#screen_throwbound_6 img {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%,-50%);
-    max-width: 90%;
-    max-height: 90%;
-}
-
-#screen_throwbound_6 .croix {
-    position: absolute;
-    top: 10px;
-    right: 10px;
-    font-size: 2rem;
-    color: #4d3c66;
-    text-decoration: none;
-    margin-right: 2.3rem;
-    z-index: 99999;
-}
-
-#screen_throwbound_6 .croix:hover {
-    color: red;
-}
-
-/* là c'est la première image, gl pour la lecture*/
-
-#screen_microville_1 .__background {
-    position: absolute;
-    width: 100%;
-    height: 100vh;
-    background-color: rgba(0,0,0,0.8);
-    transition: visibility 0s, opacity 0.5s ease-in-out;
-}
-
-#screen_microville_1 {
-    position: fixed;
-    top: 0;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    z-index: 9999;
-    visibility: hidden;
-    opacity: 0;
-}
-
-#screen_microville_1:target {
-    visibility: visible;
-    opacity: 1;
-}
-
-#screen_microville_1 img {
+#imagesP2 img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -623,7 +335,7 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_microville_1 .croix {
+#imagesP2 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -634,14 +346,13 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_microville_1 .croix:hover {
+#imagesP2 .croix:hover {
     color: red;
 }
 
+/* Handtracking */
 
-/* On va rester là longtemps à ce rythme*/
-
-#screen_microville_2 .__background {
+#imagesH1 .__background {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -649,7 +360,7 @@ nav li:hover a
     transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
-#screen_microville_2 {
+#imagesH1 {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -660,12 +371,12 @@ nav li:hover a
     opacity: 0;
 }
 
-#screen_microville_2:target {
+#imagesH1:target {
     visibility: visible;
     opacity: 1;
 }
 
-#screen_microville_2 img {
+#imagesH1 img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -675,7 +386,7 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_microville_2 .croix {
+#imagesH1 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -686,13 +397,13 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_microville_2 .croix:hover {
+#imagesH1 .croix:hover {
     color: red;
 }
 
-/* L'avant dernière !!  Ah non, ce n'est que la  troisième image..*/
+/* Throwbound*/
 
-#screen_microville_3 .__background {
+#imagesT1 .__background {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -700,7 +411,7 @@ nav li:hover a
     transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
-#screen_microville_3 {
+#imagesT1 {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -711,12 +422,12 @@ nav li:hover a
     opacity: 0;
 }
 
-#screen_microville_3:target {
+#imagesT1:target {
     visibility: visible;
     opacity: 1;
 }
 
-#screen_microville_3 img {
+#imagesT1 img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -726,7 +437,7 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_microville_3 .croix {
+#imagesT1 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -737,13 +448,13 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_microville_3 .croix:hover {
+#imagesT1 .croix:hover {
     color: red;
 }
 
-/* Peut-être qu'il existe une fin à tout cela ?*/
+/* */
 
-#screen_microville_4 .__background {
+#imagesT2 .__background {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -751,7 +462,7 @@ nav li:hover a
     transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
-#screen_microville_4 {
+#imagesT2 {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -762,12 +473,12 @@ nav li:hover a
     opacity: 0;
 }
 
-#screen_microville_4:target {
+#imagesT2:target {
     visibility: visible;
     opacity: 1;
 }
 
-#screen_microville_4 img {
+#imagesT2 img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -777,7 +488,7 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_microville_4 .croix {
+#imagesT2 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -788,13 +499,12 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_microville_4 .croix:hover {
+#imagesT2 .croix:hover {
     color: red;
 }
+/* */
 
-/* Vraiment  l'avant dernière cette fois ci !*/
-
-#screen_microville_5 .__background {
+#imagesT3 .__background {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -802,7 +512,7 @@ nav li:hover a
     transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
-#screen_microville_5 {
+#imagesT3 {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -813,12 +523,12 @@ nav li:hover a
     opacity: 0;
 }
 
-#screen_microville_5:target {
+#imagesT3:target {
     visibility: visible;
     opacity: 1;
 }
 
-#screen_microville_5 img {
+#imagesT3 img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -828,7 +538,7 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_microville_5 .croix {
+#imagesT3 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -839,13 +549,13 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_microville_5 .croix:hover {
+#imagesT3 .croix:hover {
     color: red;
 }
 
-/* Enfin la dernière  ! Mais il reste 3 jeux encore..*/
+/* */
 
-#screen_microville_6 .__background {
+#imagesT4 .__background {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -853,7 +563,7 @@ nav li:hover a
     transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
-#screen_microville_6 {
+#imagesT4 {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -864,12 +574,12 @@ nav li:hover a
     opacity: 0;
 }
 
-#screen_microville_6:target {
+#imagesT4:target {
     visibility: visible;
     opacity: 1;
 }
 
-#screen_microville_6 img {
+#imagesT4 img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -879,7 +589,7 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_microville_6 .croix {
+#imagesT4 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
@@ -890,13 +600,13 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_microville_6 .croix:hover {
+#imagesT4 .croix:hover {
     color: red;
 }
 
-/* Troisième jeu, première image. C'est qu'on a pas fini..*/
+/* */
 
-#screen_floral_serenity_1 .__background {
+#imagesT5 .__background {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -904,7 +614,7 @@ nav li:hover a
     transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
-#screen_floral_serenity_1 {
+#imagesT5 {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -915,12 +625,12 @@ nav li:hover a
     opacity: 0;
 }
 
-#screen_floral_serenity_1:target {
+#imagesT5:target {
     visibility: visible;
     opacity: 1;
 }
 
-#screen_floral_serenity_1 img {
+#imagesT5 img {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -930,24 +640,24 @@ nav li:hover a
     z-index: 99999;
 }
 
-#screen_floral_serenity_1 .croix {
+#imagesT5 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
-    font-size: 2rem;
-    color: #4d3c66;
-    text-decoration: none;
-    z-index: 99999;
     margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
 }
 
-#screen_floral_serenity_1 .croix:hover {
+#imagesT5 .croix:hover {
     color: red;
 }
 
-/* Encore et toujours, je sens qu'on est pas rendu*/
+/* */
 
-#screen_floral_serenity_2 .__background {
+#imagesT6 .__background {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -955,7 +665,7 @@ nav li:hover a
     transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
-#screen_floral_serenity_2 {
+#imagesT6 {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -966,38 +676,39 @@ nav li:hover a
     opacity: 0;
 }
 
-#screen_floral_serenity_2:target {
+#imagesT6:target {
     visibility: visible;
     opacity: 1;
 }
 
-#screen_floral_serenity_2 img {
+#imagesT6 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     max-width: 90%;
     max-height: 90%;
+    z-index: 99999;
 }
 
-#screen_floral_serenity_2 .croix {
+#imagesT6 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
-    font-size: 2rem;
-    color: #4d3c66;
-    text-decoration: none;
-    z-index: 99999;
     margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
 }
 
-#screen_floral_serenity_2 .croix:hover {
+#imagesT6 .croix:hover {
     color: red;
 }
 
-/* Bientot fini.. mais pour le troisième jeu, pas pour toutes les images..*/
+/* Floral Serenity */
 
-#screen_floral_serenity_3 .__background {
+#imagesF1 .__background {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -1005,7 +716,7 @@ nav li:hover a
     transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
-#screen_floral_serenity_3 {
+#imagesF1 {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -1016,39 +727,39 @@ nav li:hover a
     opacity: 0;
 }
 
-#screen_floral_serenity_3:target {
+#imagesF1:target {
     visibility: visible;
     opacity: 1;
 }
 
-#screen_floral_serenity_3 img {
+#imagesF1 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     max-width: 90%;
     max-height: 90%;
+    z-index: 99999;
 }
 
-#screen_floral_serenity_3 .croix {
+#imagesF1 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
-    font-size: 2rem;
-    color: #4d3c66;
-    text-decoration: none;
-    z-index: 99999;
     margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
 }
 
-#screen_floral_serenity_3 .croix:hover {
+#imagesF1 .croix:hover {
     color: red;
 }
 
+/* */
 
-/* Là c'est la 4ème image du troisième jeu, ça commence à être énervant isn't it?*/
-
-#screen_floral_serenity_4 .__background {
+#imagesF2 .__background {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -1056,7 +767,7 @@ nav li:hover a
     transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
-#screen_floral_serenity_4 {
+#imagesF2 {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -1067,38 +778,38 @@ nav li:hover a
     opacity: 0;
 }
 
-#screen_floral_serenity_4:target {
+#imagesF2:target {
     visibility: visible;
     opacity: 1;
 }
 
-#screen_floral_serenity_4 img {
+#imagesF2 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     max-width: 90%;
     max-height: 90%;
+    z-index: 99999;
 }
 
-#screen_floral_serenity_4 .croix {
+#imagesF2 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
-    font-size: 2rem;
-    color: #4d3c66;
-    text-decoration: none;
-    z-index: 99999;
     margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
 }
 
-#screen_floral_serenity_4 .croix:hover {
+#imagesF2 .croix:hover {
     color: red;
 }
+/* */
 
-/*Là, c'est la 1ère image du quatrième jeu, jpp*/
-
-#screen_home_1 .__background {
+#imagesF3 .__background {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -1106,7 +817,7 @@ nav li:hover a
     transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
-#screen_home_1 {
+#imagesF3 {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -1117,38 +828,39 @@ nav li:hover a
     opacity: 0;
 }
 
-#screen_home_1:target {
+#imagesF3:target {
     visibility: visible;
     opacity: 1;
 }
 
-#screen_home_1 img {
+#imagesF3 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     max-width: 90%;
     max-height: 90%;
+    z-index: 99999;
 }
 
-#screen_home_1 .croix {
+#imagesF3 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
-    font-size: 2rem;
-    color: #4d3c66;
-    text-decoration: none;
-    z-index: 99999;
     margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
 }
 
-#screen_home_1 .croix:hover {
+#imagesF3 .croix:hover {
     color: red;
 }
 
-/*Là, c'est la seconde image du quatrième jeu, encore trop à faire 0.0*/
+/* */
 
-#screen_home_2 .__background {
+#imagesF4 .__background {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -1156,7 +868,7 @@ nav li:hover a
     transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
-#screen_home_2 {
+#imagesF4 {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -1167,38 +879,39 @@ nav li:hover a
     opacity: 0;
 }
 
-#screen_home_2:target {
+#imagesF4:target {
     visibility: visible;
     opacity: 1;
 }
 
-#screen_home_2 img {
+#imagesF4 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     max-width: 90%;
     max-height: 90%;
+    z-index: 99999;
 }
 
-#screen_home_2 .croix {
+#imagesF4 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
-    font-size: 2rem;
-    color: #4d3c66;
-    text-decoration: none;
-    z-index: 99999;
     margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
 }
 
-#screen_home_2 .croix:hover {
+#imagesF4 .croix:hover {
     color: red;
 }
 
-/*Là c'est la 3ème image du quatrième jeu, plus qu'une pour ce jeu là*/
+/* MicroVille */
 
-#screen_home_3 .__background {
+#imagesM1 .__background {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -1206,7 +919,7 @@ nav li:hover a
     transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
-#screen_home_3 {
+#imagesM1 {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -1217,38 +930,39 @@ nav li:hover a
     opacity: 0;
 }
 
-#screen_home_3:target {
+#imagesM1:target {
     visibility: visible;
     opacity: 1;
 }
 
-#screen_home_3 img {
+#imagesM1 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     max-width: 90%;
     max-height: 90%;
+    z-index: 99999;
 }
 
-#screen_home_3 .croix {
+#imagesM1 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
-    font-size: 2rem;
-    color: #4d3c66;
-    text-decoration: none;
-    z-index: 99999;
     margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
 }
 
-#screen_home_3 .croix:hover {
+#imagesM1 .croix:hover {
     color: red;
 }
 
-/*Là, c'est la 4ème du 4ème jeu, inception?*/
+/* */
 
-#screen_home_4 .__background {
+#imagesM2 .__background {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -1256,7 +970,7 @@ nav li:hover a
     transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
-#screen_home_4 {
+#imagesM2 {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -1267,38 +981,38 @@ nav li:hover a
     opacity: 0;
 }
 
-#screen_home_4:target {
+#imagesM2:target {
     visibility: visible;
     opacity: 1;
 }
 
-#screen_home_4 img {
+#imagesM2 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     max-width: 90%;
     max-height: 90%;
+    z-index: 99999;
 }
 
-#screen_home_4 .croix {
+#imagesM2 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
-    font-size: 2rem;
-    color: #4d3c66;
-    text-decoration: none;
-    z-index: 99999;
     margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
 }
 
-#screen_home_4 .croix:hover {
+#imagesM2 .croix:hover {
     color: red;
 }
+/* */
 
-/* Là c'est la 1ère mais du 5eme jeu, tu vois un peu?*/
-
-#screen_tobbaco_1 .__background {
+#imagesM3 .__background {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -1306,7 +1020,7 @@ nav li:hover a
     transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
-#screen_tobbaco_1 {
+#imagesM3 {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -1317,38 +1031,39 @@ nav li:hover a
     opacity: 0;
 }
 
-#screen_tobbaco_1:target {
+#imagesM3:target {
     visibility: visible;
     opacity: 1;
 }
 
-#screen_tobbaco_1 img {
+#imagesM3 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     max-width: 90%;
     max-height: 90%;
+    z-index: 99999;
 }
 
-#screen_tobbaco_1 .croix {
+#imagesM3 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
-    font-size: 2rem;
-    color: #4d3c66;
-    text-decoration: none;
-    z-index: 99999;
     margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
 }
 
-#screen_tobbaco_1 .croix:hover {
+#imagesM3 .croix:hover {
     color: red;
 }
 
-/*Là c'est la seconde du 5ème jeu, même moi j'en ai marre*/
+/* */
 
-#screen_tobbaco_2 .__background {
+#imagesM4 .__background {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -1356,7 +1071,7 @@ nav li:hover a
     transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
-#screen_tobbaco_2 {
+#imagesM4 {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -1367,38 +1082,39 @@ nav li:hover a
     opacity: 0;
 }
 
-#screen_tobbaco_2:target {
+#imagesM4:target {
     visibility: visible;
     opacity: 1;
 }
 
-#screen_tobbaco_2 img {
+#imagesM4 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     max-width: 90%;
     max-height: 90%;
+    z-index: 99999;
 }
 
-#screen_tobbaco_2 .croix {
+#imagesM4 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
-    font-size: 2rem;
-    color: #4d3c66;
-    text-decoration: none;
-    z-index: 99999;
     margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
 }
 
-#screen_tobbaco_2 .croix:hover {
+#imagesM4 .croix:hover {
     color: red;
 }
 
-/*Là, c'est la 3ème du 5ème jeu, et c'est le SOS d'une dév nulle en web*/
+/* WinterHome */
 
-#screen_tobbaco_3 .__background {
+#imagesW1 .__background {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -1406,7 +1122,7 @@ nav li:hover a
     transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
-#screen_tobbaco_3 {
+#imagesW1 {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -1417,39 +1133,39 @@ nav li:hover a
     opacity: 0;
 }
 
-#screen_tobbaco_3:target {
+#imagesW1:target {
     visibility: visible;
     opacity: 1;
 }
 
-#screen_tobbaco_3 img {
+#imagesW1 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     max-width: 90%;
     max-height: 90%;
+    z-index: 99999;
 }
 
-#screen_tobbaco_3 .croix {
+#imagesW1 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
-    font-size: 2rem;
-    color: #4d3c66;
-    text-decoration: none;
-    z-index: 99999;
     margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
 }
 
-#screen_tobbaco_3 .croix:hover {
+#imagesW1 .croix:hover {
     color: red;
 }
 
-/*Là, c'est la 4ème du 5ème jeu, la fin ?*/
+/* */
 
-
-#screen_tobbaco_4 .__background {
+#imagesW2 .__background {
     position: absolute;
     width: 100%;
     height: 100vh;
@@ -1457,7 +1173,7 @@ nav li:hover a
     transition: visibility 0s, opacity 0.5s ease-in-out;
 }
 
-#screen_tobbaco_4 {
+#imagesW2 {
     position: fixed;
     top: 0;
     bottom: 0;
@@ -1468,32 +1184,336 @@ nav li:hover a
     opacity: 0;
 }
 
-#screen_tobbaco_4:target {
+#imagesW2:target {
     visibility: visible;
     opacity: 1;
 }
 
-#screen_tobbaco_4 img {
+#imagesW2 img {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%,-50%);
     max-width: 90%;
     max-height: 90%;
+    z-index: 99999;
 }
 
-#screen_tobbaco_4 .croix {
+#imagesW2 .croix {
     position: absolute;
     top: 10px;
     right: 10px;
+    margin-right: 2.3rem;
     font-size: 2rem;
     color: #4d3c66;
     text-decoration: none;
     z-index: 99999;
 }
 
-#screen_tobbaco_4 .croix:hover {
+#imagesW2 .croix:hover {
+    color: red;
+}
+/* */
+
+#imagesW3 .__background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+#imagesW3 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#imagesW3:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#imagesW3 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    max-height: 90%;
+    z-index: 99999;
+}
+
+#imagesW3 .croix {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+#imagesW3 .croix:hover {
     color: red;
 }
 
+/* */
 
+#imagesW4 .__background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+#imagesW4 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#imagesW4:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#imagesW4 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    max-height: 90%;
+    z-index: 99999;
+}
+
+#imagesW4 .croix {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+#imagesW4 .croix:hover {
+    color: red;
+}
+
+/* Tobacco PipeLine */
+
+#imagesL1 .__background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+#imagesL1 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#imagesL1:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#imagesL1 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    max-height: 90%;
+    z-index: 99999;
+}
+
+#imagesL1 .croix {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+#imagesL1 .croix:hover {
+    color: red;
+}
+
+/* */
+
+#imagesL2 .__background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+#imagesL2 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#imagesL2:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#imagesL2 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    max-height: 90%;
+    z-index: 99999;
+}
+
+#imagesL2 .croix {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+#imagesL2 .croix:hover {
+    color: red;
+}
+/* */
+
+#imagesL3 .__background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+#imagesL3 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#imagesL3:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#imagesL3 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    max-height: 90%;
+    z-index: 99999;
+}
+
+#imagesL3 .croix {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+#imagesL3 .croix:hover {
+    color: red;
+}
+
+/* */
+
+#imagesL4 .__background {
+    position: absolute;
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0,0,0,0.8);
+    transition: visibility 0s, opacity 0.5s ease-in-out;
+}
+
+#imagesL4 {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: 9999;
+    visibility: hidden;
+    opacity: 0;
+}
+
+#imagesL4:target {
+    visibility: visible;
+    opacity: 1;
+}
+
+#imagesL4 img {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    max-width: 90%;
+    max-height: 90%;
+    z-index: 99999;
+}
+
+#imagesL4 .croix {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    margin-right: 2.3rem;
+    font-size: 2rem;
+    color: #4d3c66;
+    text-decoration: none;
+    z-index: 99999;
+}
+
+#imagesL4 .croix:hover {
+    color: red;
+}

@@ -8,55 +8,138 @@
     <body>
         <nav>
             <ul class="barre_dessus">
-                <li><a href ="index.html">Mon portfolio</a></li>
-                <li><a href="\Images\CV\CV_Sarah_NIEDERITS.pdf" download> Mon CV</a></li>
+                <li><a href ="index.html">Portfolio</a></li>
+                <li><a href="\Images\CV\CV_Sarah_NIEDERITS.pdf" download>CV</a></li>
+                <li><a href="www.linkedin.com/in/sarah-niederits" download>LinkedIn</a></li>
+                <li><a href="https://linktr.ee/sarahniederits" download>LinkTree</a></li>
             </ul>
         </nav>   
         <h1 class="Portfolio">Portfolio</h1>
         <!--Entrons dans le vif du sujet, les projets-->
         <main>
+            <h2 class="titre-tresgrand">Projets en entreprise :</h2>
+            <!--Throwbound-->
+            <div class="Group">
+                <h3 class="Titre">• <u>Plank</u></h3>
+                <div class="images_throwbound">
+                    
+                    <a href="#imagesP1"> <img src="Images/Plank/PrototypePlankDebut.gif" width="240" height="240" alt="Premier prototype"/></a>
+                    <!--<p class="interImages"> Premier prototype </p>-->
+                    <div id="imagesP1">
+                        <a href="#throwbound"><div class="__background"></div></a>
+                        <a class="croix" href="#">x</a>
+                        <img src="Images/Plank/PrototypePlankDebut.gif" width="540" height="540"alt="Premier prototype"/>
+                    </div>
+                    <a  href="#imagesP2"> <img id = "imageP2classic" src="Images/Plank/PlankV1.gif" width="240" height="240" alt="Premier rendu de gameplay"/></a>
+                    <div id="imagesP2">
+                        <a href="#throwbound"><div class="__background"></div></a>
+                        <a class="croix" href="#">x</a>
+                        <img src="Images/Plank/PlankV1.gif" width="540" height="540" alt="Premier rendu de gameplay"/>
+                    </div>
+                    <br>
+                    <div id="interText">
+                        <a  id="intertxt" href="https://www.youtube.com/shorts/kOONgiWodn0" target="_blank" >Premier Prototype</a>
+                        <a id="intertxt2" href="https://www.youtube.com/shorts/6Pk5gELR8HU" target="_blank" width="540">Rendu V1 du projet</a>
+                    </div>
+                    
+                    <!--AJOUTER DES IMAGES-->
+                </div>
+                <div class="text">
+                    <p class="txt">Plank est un projet d'animation en réalité virtuelle. On se trouve sur une planche et l'on peut tomber dans le vide. C'est le second projet où j'étais en autonomie sur l'intégralité du développement.</p>
+                    <p class="txt">Ce second projet comportait plus de travail sur l'optimisation, afin d'atteindre 72 fps dans le casque VR sans perdre de qualité visuelle. Il fallait aussi ajuster correctement la chute et la vision du joueur pour éviter que le joueur tombe avec le casque ou qu'il expérimente des nausées. J'ai également dû intégrer le son.</p>
+                    <div class="txt2"> 
+                        <p class="txt"> Technologies utilisées :</p>
+                        <ul class="txt">
+                            <li class="txt">Unity VR</a></li>
+                            <li class="txt">C#</a></li>
+                            <li class="txt">Git</a></li>
+                        </ul>
+                    </div>
+                    <a class='button' href="https://eventorizon.studio/" target="_blank">EVENT ORIZON</a>
+                    <br>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br><!--Throwbound-->
+            <div class="Group">
+                <h3 class="Titre">• <u>Prototype Handtracking</u></h3>
+                <div class="images_throwbound">
+                    
+                    <a href="#imagesH1"> <img src="Images/Handtracking/GiF_Handtracking.gif" width="576" height="324" alt="Tutoriel de Throwbound"/></a>
+                    <div id="imagesH1">
+                        <a href="#throwbound"><div class="__background"></div></a>
+                        <a class="croix" href="#">x</a>
+                        <img src="Images/Handtracking/GiF_Handtracking.gif" width="960" height="540"alt="Tutoriel de Throwbound"/>
+                    </div>
+                    <br>
+                    
+                    <!--AJOUTER DES IMAGES-->
+                </div>
+                <div class="text">
+                    <p class="txt"> Ce projet est un POC réalisé en autonomie pendant un mois lors de mon second mois chez Event Orizon. Le concept est simple, on doit pouvoir attraper un cône lorsqu'on est sur un véhicule en mouvement. Grace à des gants et un plastron haptic, l'utilisateur ressent les contacts qui surviennent en jeu. </p>
+                    <p class="txt">Puisqu'il s'agit de mon premier projet en entreprise en automonie complète sur le développement et que c'est un cahier des charges particulier (Handtracking et Haptic), j'ai appris . </p>
+                    <div class="txt2"> 
+                        <p class="txt"> Technologies utilisées :</p>
+                        <ul class="txt">
+                            <li class="txt">Unity VR</a></li>
+                            <li class="txt">C#</a></li>
+                            <li class="txt">Handtracking et Haptic</a></li>
+                            <li class="txt">Git</a></li>
+                        </ul>
+                    </div>
+                    <a class='button' href="https://eventorizon.studio/" target="_blank">EVENT ORIZON</a>
+                </div>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <h2 class="titre-tresgrand">Projets personnels :</h2>
         <!--Projets Unity-->
             <h2 class="titre-grand">Unity (C#)</h2>
 
             <!--Throwbound-->
-            <div class="throwbound">
+            <div class="Group">
                 <h3 class="Titre">• <u>Throwbound</u></h3>
                 <div class="images_throwbound">
                     
-                    <a href="#screen_throwbound_1"> <img src="Images/Throwbound/Screen_T1.png" width="288" height="162" alt="Tutoriel de Throwbound"/></a>
-                    <div id="screen_throwbound_1">
+                    <a href="#imagesT1"> <img src="Images/Throwbound/Screen_T1.png" width="288" height="162" alt="Tutoriel de Throwbound"/></a>
+                    <div id="imagesT1">
                         <a href="#throwbound"><div class="__background"></div></a>
                         <a class="croix" href="#">x</a>
                         <img src="Images/Throwbound/Screen_T1.png" width="960" height="540"alt="Tutoriel de Throwbound"/>
                     </div>
-                    <a href="#screen_throwbound_2"> <img src="Images/Throwbound/Screen_T2.png" width="288" height="162" alt="Menu de Throwbound"/></a>
-                    <div id="screen_throwbound_2">
+                    <a href="#imagesT2"> <img src="Images/Throwbound/Screen_T2.png" width="288" height="162" alt="Menu de Throwbound"/></a>
+                    <div id="imagesT2">
                         <a href="#throwbound"><div class="__background"></div></a>
                         <a class="croix" href="#">x</a>
                         <img src="Images/Throwbound/Screen_T2.png" width="960" height="540" alt="Menu de Throwbound"/>
                     </div>
                     <br>
-                    <a href="#screen_throwbound_3"> <img src="Images/Throwbound/Screen_T3.png" width="288" height="162" alt="Ecran de paramètres audio" /></a>
-                    <div id="screen_throwbound_3">
+                    <a href="#imagesT3"> <img src="Images/Throwbound/Screen_T3.png" width="288" height="162" alt="Ecran de paramètres audio" /></a>
+                    <div id="imagesT3">
                         <a href="#throwbound"><div class="__background"></div></a>
                         <a class="croix" href="#">x</a>
                         <img src="Images/Throwbound/Screen_T3.png" width="960" height="540" alt="Ecran de paramètres audio"/>
                     </div>
-                    <a href="#screen_throwbound_4"> <img src="Images/Throwbound/Screen_T4.png" width="288" height="162" alt="Niveau 3, partie lumière"/></a>
-                    <div id="screen_throwbound_4">
+                    <a href="#imagesT4"> <img src="Images/Throwbound/Screen_T4.png" width="288" height="162" alt="Niveau 3, partie lumière"/></a>
+                    <div id="imagesT4">
                         <a href="#throwbound"><div class="__background"></div></a>
                         <a class="croix" href="#">x</a>
                         <img src="Images/Throwbound/Screen_T4.png" width="960" height="540" alt="Niveau 3, partie lumière"/>
                     </div>
                     <br>
-                    <a href="#screen_throwbound_5"> <img src="Images/Throwbound/Screen_T5.png" width="288" height="162" alt="Niveau 3, partie musicale"/></a>
-                    <div id="screen_throwbound_5">
+                    <a href="#imagesT5"> <img src="Images/Throwbound/Screen_T5.png" width="288" height="162" alt="Niveau 3, partie musicale"/></a>
+                    <div id="imagesT5">
                         <a href="#throwbound"><div class="__background"></div></a>
                         <a class="croix" href="#">x</a>
                         <img src="Images/Throwbound/Screen_T5.png" width="960" height="540"alt="Niveau 3, partie musicale"/>
                     </div>
-                    <a href="#screen_throwbound_6"> <img src="Images/Throwbound/Screen_T5.png" width="288" height="162" alt="Niveau 3, partie musicale"/></a>
-                    <div id="screen_throwbound_6">
+                    <a href="#imagesT6"> <img src="Images/Throwbound/Screen_T5.png" width="288" height="162" alt="Niveau 3, partie musicale"/></a>
+                    <div id="imagesT6">
                         <a href="#throwbound"><div class="__background"></div></a>
                         <a class="croix" href="#">x</a>
                         <img src="Images/Throwbound/Screen_T5.png" width="960" height="540"alt="Niveau 3, partie musicale"/>
@@ -65,10 +148,19 @@
                     <!--AJOUTER DES IMAGES-->
                 </div>
                 <div class="text">
-                    <p class="txt"> Dans le cadre du projet de fin de première année de licence, nous devions réaliser un fps non violent (un jab-job) en équipe. Throwbound a vu le jour grâce au travail de notre équipe, composée de 4 membres, Maxime "Chaise" BRUNEL, Victor ROUZAUD, Emilien "Papy" PAYET et moi même. Ce jeu est un jeu de plateforme et d'énigmes, où il faut parvenir au bout du niveau en réussissant un certain nombre d'énigmes et de sauts. </p>
+                    <p class="txt"> SOUS TIRET AVEC PHRASES EXPLICATIVES LOOGOOOOOOOOOOOOOO Dans le cadre du projet de fin de première année de licence, nous devions réaliser un fps non violent (un jab-job) en équipe. Throwbound a vu le jour grâce au travail de notre équipe, composée de 4 membres, Maxime "Chaise" BRUNEL, Victor ROUZAUD, Emilien "Papy" PAYET et moi même. Ce jeu est un jeu de plateforme et d'énigmes, où il faut parvenir au bout du niveau en réussissant un certain nombre d'énigmes et de sauts. </p>
                 
                     <p class="txt">Avec ce projet de fin d'année, j'ai pu améliorer mes compétences en programmation mais aussi en modélisation 3D sur Blender, en level design et en game design. Il m'a aussi permis d'améliorer ma façon de communiquer au sein d'une équipe. </p>
-                    <p class="txt">Dans cette aventure, j'étais GamePlay Prog, Game Designer, Level Designer et Modélisatrice 3D.</p>
+                    
+                    <div class="txt2"> 
+                        <p class="txt">Dans cette aventure, j'étais : </p>
+                        <ul class="txt2">
+                            <li class="txt">Développeuse Gameplay</a></li>
+                            <li class="txt">Game & Level Designer</a></li>
+                            <li class="txt">Modélisatrice 3D</a></li>
+                        </ul>
+                    </div>
+                    
                     <a class='button' href="https://okiosko.itch.io/throwbound" target="_blank">JOUER AU JEU</a>
                 </div>
             </div>
@@ -77,32 +169,32 @@
             <br>
             <br>
             <!--Floral Serenity-->
-            <div class="plantum">
+            <div class="Group">
                 <h3 class="Titre">• <u>Floral Serenity</u></h3>
                 <div class="images_floral_serenity">
                     
-                    <a href="#screen_floral_serenity_1"> <img src="Images/FS/Screen FS4.PNG" width="288" height="162" alt="Menu de Floral Serenity"/></a>
-                    <div id="screen_floral_serenity_1">
-                        <a href="#plantum"><div class="__background"></div></a>
+                    <a href="#imagesF1"> <img src="Images/FS/Screen FS4.PNG" width="288" height="162" alt="Menu de Floral Serenity"/></a>
+                    <div id="imagesF1">
+                        <a href="#floral_serenity"><div class="__background"></div></a>
                         <a class="croix" href="#">x</a>
                         <img src="Images/FS/Screen FS4.PNG" width="960" height="540"alt="Menu de Floral Serenity"/>
                     </div>
-                    <a href="#screen_floral_serenity_2"> <img src="Images/FS/Screen FS2.png" width="288" height="162" alt="Scène de sélection Shop Or Service"/></a>
-                    <div id="screen_floral_serenity_2">
-                        <a href="#plantum"><div class="__background"></div></a>
+                    <a href="#imagesF2"> <img src="Images/FS/Screen FS2.png" width="288" height="162" alt="Scène de sélection Shop Or Service"/></a>
+                    <div id="imagesF2">
+                        <a href="#floral_serenity"><div class="__background"></div></a>
                         <a class="croix" href="#">x</a>
                         <img src="Images/FS/Screen FS2.png" width="960" height="540" alt="Scène de sélection Shop Or Service"/>
                     </div>
                     <br>
-                    <a href="#screen_floral_serenity_3"> <img src="Images/FS/GiF_Floral_Serenity.gif" width="288" height="162" alt="Capture d'écran du gameplay" /></a>
-                    <div id="screen_floral_serenity_3">
-                        <a href="#plantum"><div class="__background"></div></a>
+                    <a href="#imagesF3"> <img src="Images/FS/GiF_Floral_Serenity.gif" width="288" height="162" alt="Capture d'écran du gameplay" /></a>
+                    <div id="imagesF3">
+                        <a href="#floral_serenity"><div class="__background"></div></a>
                         <a class="croix" href="#">x</a>
                         <img src="Images/FS/GiF_Floral_Serenityy.gif" width="960" height="540" alt="Capture d'écran du gameplay"/>
                     </div>
-                    <a href="#screen_floral_serenity_4"> <img src="Images/FS/Screen FS1.png" width="288" height="162" alt="Scène du Magasin"/></a>
-                    <div id="screen_floral_serenity_4">
-                        <a href="#plantum"><div class="__background"></div></a>
+                    <a href="#imagesF4"> <img src="Images/FS/Screen FS1.png" width="288" height="162" alt="Scène du Magasin"/></a>
+                    <div id="imagesF4">
+                        <a href="#floral_serenity"><div class="__background"></div></a>
                         <a class="croix" href="#">x</a>
                         <img src="Images/FS/Screen FS1.png" width="960" height="540" alt="Scène du Magasin"/>
                     </div>
@@ -113,7 +205,15 @@
                     <p class="txt"> Floral Serenity est un jeu réalisé par l'équipe Alpha Dreamers, composée d'Hugo IMPERAT et de moi même pour la Beginner GameJam (1 semaine). Le thème principal était "Growth" donc "croissance". Le but de ce jeu est de s'occuper de plantes pour qu'elles puissent grandir pour ensuite les vendre et acheter des améliorations. </p>
                 
                     <p class="txt"> Créer ce jeu m'a permit d'approfondir mes connaissances sur Unity et en C#. J'ai pu aussi m'améliorer sur Krita. </p>
-                    <p class="txt">Dans ce projet, j'étais GamePlay Prog, Game Designer et Graphic Designer.</p>
+                    
+                    <div class="txt2"> 
+                        <p class="txt">Dans ce projet, j'étais :
+                        <ul class="txt2">
+                            <li class="txt">Développeuse Gameplay</a></li>
+                            <li class="txt">Game & Level Designer</a></li>
+                            <li class="txt">Dessinatrice</a></li>
+                        </ul>
+                    </div>
                     <a class='button' href="https://nectaaria.itch.io/floral-serenity" target="_blank">JOUER AU JEU</a>
                 </div>
             </div>
@@ -122,31 +222,31 @@
             <br>
             <br>
             <!--MiniVille-->
-            <div class="microville">
+            <div class="Group">
                 <h3 class="Titre">• <u>Prototype MiniVille</u></h3>
                 <div class="images_microville">
                     
-                    <a href="#screen_microville_1"> <img src="Images/MicroVille/ScreenT4.png" width="288" height="162" alt="TKT"/></a>
-                    <div id="screen_microville_1">
+                    <a href="#imagesM1"> <img src="Images/MicroVille/ScreenT4.png" width="288" height="162" alt="TKT"/></a>
+                    <div id="imagesM1">
                         <a href="#microville"><div class="__background"></div></a>
                         <a class="croix" href="#">x</a>
                         <img src="Images/MicroVille/ScreenT4.png" width="960" height="540"alt="TKT"/>
                     </div>
-                    <a href="#screen_microville_2"> <img src="Images\MicroVille\MicroVilleProto.gif" width="288" height="162" alt="TKT"/></a>
-                    <div id="screen_microville_2">
+                    <a href="#imagesM2"> <img src="Images\MicroVille\MicroVilleProto.gif" width="288" height="162" alt="TKT"/></a>
+                    <div id="imagesM2">
                         <a href="#microville"><div class="__background"></div></a>
                         <a class="croix" href="#">x</a>
                         <img src="Images\MicroVille\MicroVilleProto.gif" width="960" height="540" alt="TKT"/>
                     </div>
                     <br>
-                    <a href="#screen_microville_3"> <img src="Images/MicroVille/ScreenT3.png" width="288" height="162" alt="TKT" /></a>
-                    <div id="screen_microville_3">
+                    <a href="#imagesM3"> <img src="Images/MicroVille/ScreenT3.png" width="288" height="162" alt="TKT" /></a>
+                    <div id="imagesM3">
                         <a href="#microville"><div class="__background"></div></a>
                         <a class="croix" href="#">x</a>
                         <img src="Images/MicroVille/ScreenT3.png" width="960" height="540" alt="TKT"/>
                     </div>
-                    <a href="#screen_microville_4"> <img src="Images/MicroVille/ScreenT1.png" width="288" height="162" alt="TKT"/></a>
-                    <div id="screen_microville_4">
+                    <a href="#imagesM4"> <img src="Images/MicroVille/ScreenT1.png" width="288" height="162" alt="TKT"/></a>
+                    <div id="imagesM4">
                         <a href="#microville"><div class="__background"></div></a>
                         <a class="croix" href="#">x</a>
                         <img src="Images/MicroVille/ScreenT1.png" width="960" height="540" alt="TKT"/>
@@ -160,7 +260,13 @@
                     <p class="txt"> Ce prototype est le résultat d'un exercice de programmation en C# que j'ai pu réaliser pendant les premiers mois de ma première année de licence avec 3 autres élèves, Hugo IMPERAT, Emilien "Papy" PAYET et Nathan CUENI DOLIS. L'exercice nous demandait de réaliser un mini jeu reprennant les règles du jeu de société MiniVille. Nous avions une semaine pour réaliser ce projet. </p>
                 
                     <p class="txt"> Ce projet m'a permis de m'améliorer en C# mais également en dessin, où j'ai pu prendre le temps de correctement apprendre le logiciel Krita.  Il m'a également appris à gérer mon temps pendant un projet avec une date butoir courte.  </p>
-                    <p class="txt">Dans ce projet, j'ai pu être développeuse mais également dessinatrice pour les cartes et les menus.</p>
+                    <div class="txt2"> 
+                        <p class="txt">Dans ce projet, j'ai pu être :
+                        <ul class="txt">
+                            <li class="txt">Développeuse Gameplay</a></li>
+                            <li class="txt">Dessinatrice des cartes et menus</a></li>
+                        </ul>
+                    </div>
                     <a class='button' href="https://okiosko.itch.io/throwbound" target="_blank">JOUER AU JEU</a>
                 </div>
             </div>
@@ -169,41 +275,48 @@
             <br>
             <br>
             <!--Khiónê's Home-->
-            <div class="Winter_Home">
+            <div class="Group">
                 <h3 class="Titre">• <u>Khiónê's Home</u></h3>
                 
                 <div class="images_Winter_Home">
-                    <a href="#screen_home_1"> <img src="Images/Winter's Home/Screen Home 1.PNG" width="288" height="162" alt="Menu de Khiónê's Home" /></a>
-                    <div id="screen_home_1">
+                    <a href="#imagesW1"> <img src="Images/Winter's Home/Screen Home 1.PNG" width="288" height="162" alt="Menu de Khiónê's Home" /></a>
+                    <div id="imagesW1">
                         <a href="#Winterr"><div class="__background"></div></a>
                         <a class="croix" href="#">x</a>
                         <img src="Images/Winter's Home/Screen Home 1.PNG" width="960" height="540" alt="Menu de Khiónê's Home" />
                     </div>
-                    <a href="#screen_home_2"> <img src="Images/Winter's Home/Screen Home 2.PNG" width="288" height="162" alt="Crédits de Khiónê's Home"/></a>
-                    <div id="screen_home_2">
+                    <a href="#imagesW2"> <img src="Images/Winter's Home/Screen Home 2.PNG" width="288" height="162" alt="Crédits de Khiónê's Home"/></a>
+                    <div id="imagesW2">
                         <a href="#Winterr"><div class="__background"></div></a>
                         <a class="croix" href="#">x</a>
                         <img src="Images/Winter's Home/Screen Home 2.PNG" width="960" height="540" alt="Crédits de Khiónê's Home" />
                     </div>
                     <br>
-                    <a href="#screen_home_3"> <img src="Images/Winter's Home/Screen Home 3.PNG" width="288" height="162" alt="Platformer du jeu" /></a>
-                    <div id="screen_home_3">
+                    <a href="#imagesW3"> <img src="Images/Winter's Home/Screen Home 3.PNG" width="288" height="162" alt="Platformer du jeu" /></a>
+                    <div id="imagesW3">
                         <a href="#Winterr"><div class="__background"></div></a>
                         <a class="croix" href="#">x</a>
                         <img src="Images/Winter's Home/Screen Home 3.PNG" width="960" height="540" alt="Platformer du jeu"/>
                     </div>
-                    <a href="#screen_home_4"> <img src="Images/Winter's Home/GiF_Winter'sHome.gif" width="288" height="162" alt="Tower-defense du jeu"/></a>
-                    <div id="screen_home_4">
+                    <a href="#imagesW4"> <img src="Images/Winter's Home/GiF_Winter'sHome.gif" width="288" height="162" alt="Tower-defense du jeu"/></a>
+                    <div id="imagesW4">
                         <a href="#Winterr"><div class="__background"></div></a>
                         <a class="croix" href="#">x</a>
-                        <img src="Images/Winter's Home/GiF_Winter's_Home.gif" width="960" height="540" alt="Tower-defense du jeu"/>
+                        <img src="Images/Winter's Home/GiF_Winter'sHome.gif" width="960" height="540" alt="TKT"/>
                     </div>
                     <!--AJOUTER DES IMAGES ET AJOUTER LA VIDEO-->
                 </div>
                 <div class="text">
                     <p class="txt">Khiónê's Home est un jeu que j'ai réalisé, à l'aide de 4 amis, pour la Jame Gam Christmas Edition (1 semaine). Ce jeu comporte 3 mini jeux : un platformer, un tower defense et un jeu de craft (non terminé). </p>
                     <p class="txt"> J'ai pu, grâce à la création de ce jeu, prendre en main le moteur Unity ainsi que le logiciel de dessin Krita. </p>
-                    <p class="txt">Lors de ce projet, j'ai pu être Game Designer, GamePlay Prog et Graphic Designer.</p>
+                    <div class="txt2"> 
+                        <p class="txt">Lors de ce projet, j'ai pu être :</p>
+                        <ul class="txt">
+                            <li class="txt">Développeuse Gameplay</a></li>
+                            <li class="txt">Game & Level Designer</a></li>
+                            <li class="txt">Dessinatrice</a></li>
+                        </ul>
+                    </div>
                     <a class='button' href="https://nectaaria.itch.io/khiones-home" target="_blank">JOUER AU JEU</a>
                 </div>
             </div>
@@ -214,31 +327,31 @@
             <!--Projet UE4-->
             <h2 class="titre-grand">Unreal Engine 4 (Blueprints)</h2>
             <!--Tobacco Pipe Line-->
-            <div class="tobacco_pipeline">
+            <div class="Group">
                 <h3 class="Titre">• <u>Tobacco Pipe Line</u></h3>
                 <div class="image_tobacco_pipeline">
-                    <a href="#screen_tobbaco_1"> <img src="Images/Tobacco/Screen Tobbaco 1.PNG" width="288" height="162" alt="Menu de Tobacco Pipe Line"/></a>
-                    <div id="screen_tobbaco_1">
-                        <a href="#toto"><div class="__background"></div></a>
+                    <a href="#imagesL1"> <img src="Images/Tobacco/Screen Tobbaco 1.PNG" width="288" height="162" alt="Menu de Tobacco Pipe Line"/></a>
+                    <div id="imagesL1">
+                        <a href="#tobacco_pipeline"><div class="__background"></div></a>
                         <a class="croix" href="#">x</a>
                         <img src="Images/Tobacco/Screen Tobbaco 1.PNG" width="960" height="540" alt="Menu de Tobacco Pipe Line"/>
                     </div>
-                    <a href="#screen_tobbaco_2"> <img src="Images/Tobacco/Screen Tobbaco 2.PNG" width="288" height="162" alt="Crédits de Tobacco Pipe Line"/></a>
-                    <div id="screen_tobbaco_2">
-                        <a href="#toto"><div class="__background"></div></a>
+                    <a href="#imagesL2"> <img src="Images/Tobacco/Screen Tobbaco 2.PNG" width="288" height="162" alt="Crédits de Tobacco Pipe Line"/></a>
+                    <div id="imagesL2">
+                        <a href="#tobacco_pipeline"><div class="__background"></div></a>
                         <a class="croix" href="#">x</a>
                         <img src="Images/Tobacco/Screen Tobbaco 2.PNG" width="960" height="540" alt="Crédits de Tobacco Pipe Line"/>
                     </div>
                     <br>
-                    <a href="#screen_tobbaco_3"> <img src="Images/Tobacco/GiF_TobaccoPipeLine.gif" width="288" height="162" alt="Capture d'écran du gameplay"/></a>
-                    <div id="screen_tobbaco_3">
-                        <a href="#toto"><div class="__background"></div></a>
+                    <a href="#imagesL3"> <img src="Images/Tobacco/GiF_TobaccoPipeLine.gif" width="288" height="162" alt="Capture d'écran du gameplay"/></a>
+                    <div id="imagesL3">
+                        <a href="#tobacco_pipeline"><div class="__background"></div></a>
                         <a class="croix" href="#">x</a>
-                        <img src="Images/Tobacco/GiF_Tobacco-PipeLine.gif" width="960" height="540" alt="Capture d'écran du gameplay"/>
+                        <img src="Images/Tobacco/GiF_TobaccoPipeLine.gif" width="960" height="540" alt="TKT"/>
                     </div>
-                    <a href="#screen_tobbaco_4"> <img src="Images/Tobacco/Screen Tobbaco 4.PNG" width="288" height="162" alt="Ecran de fin de niveau"/></a>
-                    <div id="screen_tobbaco_4">
-                        <a href="#toto"><div class="__background"></div></a>
+                    <a href="#imagesL4"> <img src="Images/Tobacco/Screen Tobbaco 4.PNG" width="288" height="162" alt="Ecran de fin de niveau"/></a>
+                    <div id="imagesL4">
+                        <a href="#tobacco_pipeline"><div class="__background"></div></a>
                         <a class="croix" href="#">x</a>
                         <img src="Images/Tobacco/Screen Tobbaco 4.PNG" width="960" height="540" alt="Ecran de fin de niveau"/>
                     </div>
@@ -247,6 +360,13 @@
                 <div class="text">
                     <p class="txt"> Tobbaco Pipe Line est un jeu que nous, 3 amis et moi même, réalisé pour la Game Anatomy Jam 1ère édition (48h). Dans ce jeu, le but est d'aller allumer le tabac présent dans le fourneau de la pipe tout en évitant les obstacles. </p>
                     <p class="txt"> Avec ce jeu, j'ai appris à utiliser Unreal Engine 4 mais également GitHub. C'était ma toute première Jam alors j'ai pu prendre connaissance du déroulé de la création de jeux. </p>
+                    <div class="txt2"> 
+                        <p class="txt"> J'ai pu être  :</p>
+                        <ul class="txt">
+                            <li class="txt">Développeuse Gameplay</a></li>
+                            <li class="txt">Game & Level Designer</a></li>
+                        </ul>
+                    </div>
                     <a class='button' href="https://nectaaria.itch.io/tobacco-pipe-line" target="_blank">JOUER AU JEU</a>
                 </div>
             </div>
