@@ -233,7 +233,11 @@ nav li:hover a
 
 /*Fin de la barre toute violette tout en haut*/
 
-
+.cote{
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+}
 
 .warning{
     font-style: italic;
